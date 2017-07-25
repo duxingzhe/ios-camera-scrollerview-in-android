@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:background="@drawable/camera_mode_index_icon_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3.0dip"
+        android:layout_gravity="center"
+        />
+
+   <com.luxuan.view.CameraScroller
+        android:id="@+id/camera_scroller"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp">
+        <TextView android:text="@string/camera_video" style="@style/cameraScrollerBar" />
+        <TextView android:text="@string/camera_take_photo" style="@style/cameraScrollerBar" />
+        <TextView android:text="@string/camera_square" style="@style/cameraScrollerBar" />
+   </com.luxuan.view.CameraScroller>
+</LinearLayout>
