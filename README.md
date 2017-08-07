@@ -8,5 +8,4 @@ Please give me some suggestions to make this viewgroup better.
 
 Thanks
 
-Detailed Explaination:
-http://blog.csdn.net/myfather103/article/details/76695199
+Detailed Explaination:http://blog.csdn.net/myfather103/article/details/76695199
